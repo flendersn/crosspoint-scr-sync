@@ -30,7 +30,7 @@ x4.upload_scrs(files=custom_scr)
 Or upload directly from a URL:
 ```python
 result = x4.upload_scrs_from_url(
-urls="https://x4epapers.lowio.xyz/output/37/cd/37cdb657ec9226e52ce4d7160367d36c.bmp",
+urls="[https://x4epapers.lowio.xyz/output/37/cd/37cdb657ec9226e52ce4d7160367d36c.bmp]",
 keep_image=True  # Set to True to keep the downloaded image in the working directory. Default: False
 )
 ```
